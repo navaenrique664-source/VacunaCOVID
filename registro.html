@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro ciudadano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Registro ciudadano</header>
+
+<div class="container">
+  <h1>Datos del ciudadano</h1>
+
+  <form id="formRegistro">
+    <label>CURP</label>
+    <input type="text" id="curp" required>
+
+    <label>Nombre</label>
+    <input type="text" id="nombre" required>
+
+    <label>Edad</label>
+    <input type="number" id="edad" required>
+
+    <label>Teléfono</label>
+    <input type="tel" id="telefono">
+
+    <label>Discapacidad</label>
+    <select id="discapacidad">
+      <option>Ninguna</option>
+      <option>Visual</option>
+      <option>Auditiva</option>
+      <option>Motriz</option>
+      <option>Intelectual</option>
+      <option>Otra</option>
+    </select>
+
+    <label>Lengua</label>
+    <select id="lengua">
+      <option>Español</option>
+      <option>Náhuatl</option>
+      <option>Otomí</option>
+      <option>Mazahua</option>
+      <option>Otra</option>
+    </select>
+
+    <button type="submit">Guardar</button>
+  </form>
+
+  <a class="btn" href="menu.html">Regresar</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

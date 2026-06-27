@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #faf7ff;
+  color: #2b2b2b;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #eadcf8;
+  padding: 18px 40px;
+  color: #8b5cf6;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 760px;
+  margin: 40px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.12);
+}
+
+h1, h2 {
+  color: #7c3aed;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button, .btn {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 12px 18px;
+  background: #c084fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #a855f7;
+}
+
+.menu {
+  display: grid;
+  gap: 14px;
+}
+
+.menu a {
+  padding: 16px;
+  border: 1px solid #eadcf8;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #6d28d9;
+  background: #fbf7ff;
+}
+
+.card-number {
+  font-size: 32px;
+  color: #a855f7;
+  font-weight: bold;
+}
